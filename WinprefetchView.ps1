@@ -51,7 +51,7 @@ Write-Host "
                                                                                         
 " -ForegroundColor Magenta
 
-Write-Host "                                                                 MADE BY NoName" -ForegroundColor Cyan
+Write-Host "                                                                 MADE BY spokwn" -ForegroundColor Cyan
 
 Start-Sleep -Seconds 2
 
