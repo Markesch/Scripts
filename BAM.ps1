@@ -11,7 +11,7 @@ Write-Host @"
  ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝    ╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝                                                                          
 "@ -ForegroundColor Magenta
 Write-Host ""
-Write-Host "                                                                                           made by NoName"
+Write-Host "                                                                                           made by spokwn"
 Write-Host ""
 
 if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))  
@@ -472,3 +472,5 @@ $ContenidoHtml += @'
 
 $htmlFilePath = Join-Path $env:TEMP "BAMKeyEntries.html"
 $ContenidoHtml | Out-File -FilePath $htmlFilePath -Encoding UTF8
+
+Start-Process $htmlFilePath
