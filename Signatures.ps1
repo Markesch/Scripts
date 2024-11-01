@@ -11,7 +11,7 @@ Write-Host @"
 "@ -ForegroundColor Magenta
 Write-Host ""
 Write-Host "  Made by spokwn kjj - " -ForegroundColor Gray -NoNewline
-Write-Host -ForegroundColor DarkMagenta "NoName"
+Write-Host -ForegroundColor DarkMagenta "spokwn"
 Write-Host ""
 
 Start-Sleep -s 1
